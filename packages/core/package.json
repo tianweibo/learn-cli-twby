@@ -17,6 +17,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@learn-cli-twb/utils": "^0.0.1"
+    "@learn-cli-twb/utils": "^0.0.0"
   }
 }
