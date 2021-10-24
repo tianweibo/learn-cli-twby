@@ -20,6 +20,9 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/tianweibo/learn-cli-twby/issues"
   },
@@ -27,5 +30,6 @@
     "axios": "^0.23.0",
     "semver": "^7.3.5",
     "url-join": "^4.0.1"
-  }
+  },
+  "gitHead": "f88a6f274c0a74b09016980500f93c485f69faf4"
 }
