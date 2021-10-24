@@ -30,7 +30,7 @@ async function checkGlobalUpdate(){
     //1、获取当前版本号和模块名
     const currentVersion=pkg.version;
     const npmName=pkg.name;
-    console.log(currentVersion,'currentVersion')
+    console.log(currentVersion,'1111currentVersion')
     //2、调用npm api,获取所有的版本号
     const {getNpmSemverVersion}=require("@learn-cli-twb/get-npm-info")
     const lastVersion=await getNpmSemverVersion(currentVersion,npmName)
