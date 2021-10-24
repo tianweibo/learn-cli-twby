@@ -23,6 +23,16 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@learn-cli-twb/utils": "file:../../utils/utils"
+    "@learn-cli-twb/log": "file:../../utils/log",
+    "@learn-cli-twb/get-npm-info": "file:../../utils/get-npm-info",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "import-local": "^3.0.3",
+    "minimist": "^1.2.5",
+    "npmlog": "^5.0.1",
+    "path-exists": "^4.0.0",
+    "root-check": "^2.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^3.0.0"
   }
 }
