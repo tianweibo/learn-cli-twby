@@ -23,8 +23,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@learn-cli-twb/get-npm-info": "file:../../utils/get-npm-info",
-    "@learn-cli-twb/log": "file:../../utils/log",
+    "@learn-cli-twb/get-npm-info": "^0.07",
+    "@learn-cli-twb/log": "^0.07",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "import-local": "^3.0.3",
