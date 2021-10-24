@@ -1,6 +1,6 @@
 {
   "name": "@learn-cli-twb/core",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "> TODO: description",
   "author": "tianweibo <839445383@qq.com>",
   "homepage": "",
@@ -23,8 +23,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@learn-cli-twb/log": "file:../../utils/log",
     "@learn-cli-twb/get-npm-info": "file:../../utils/get-npm-info",
+    "@learn-cli-twb/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "import-local": "^3.0.3",
